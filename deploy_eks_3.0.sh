@@ -35,7 +35,7 @@ TARGET_CPU=50
 S3_BUCKET_NAME="moodle-data-$(date +%s | md5sum | head -c 8)"  # 隨機桶名
 
 # Route 53配置
-DOMAIN_NAME="fipcuring.com"
+DOMAIN_NAME="www.fipcuring.com"
 HOSTED_ZONE_ID=""  # 如果已有託管區域，請填寫ID
 RECORD_NAME="www.${DOMAIN_NAME}"
 
